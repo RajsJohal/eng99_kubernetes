@@ -83,3 +83,6 @@ spec:
 - This file will expose the correct port in order to access the container from locahost 
 - Nginx container can be seen on web browser from localhost after running the serive .yml file
 - Deleting one container pod will just revive the pod due to kubernetes self healing option which will recover the pod. 
+
+## Delete Kubernetes deployment
+- `kubectl delete deploy <Deploy-Name>`
